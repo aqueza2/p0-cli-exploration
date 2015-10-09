@@ -1,4 +1,4 @@
-![Alt tex](/imgs/SITEMAP.png)
+![My Sitemap](week-2/imgs/SITEMAP.png)
 #What are the 6 Phases of Web Design?
  The six phases of web design are information gathering, planning, design, development, testing &delivery, and maintenance.
  Information gathering is the first step and usually the most important one. Before making a website, it is important to gather all the information you need in order to build it. what the goals of the website are and how these goals can be achieved are important things to think about. Certain things that need to also be considered are what the purpose of the website is, what the goal of the website is, whether or not there is a  a specific group of people you’re targeting your website for, and what kind of information that target audience will be looking at in your website.
