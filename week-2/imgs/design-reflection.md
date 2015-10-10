@@ -1,4 +1,4 @@
-![Alt tex](/imgs/SITEMAP.png)
+![My Sitemap](week-2/imgs/SITEMAP.png)
 #What are the 6 Phases of Web Design?
  The six phases of web design are information gathering, planning, design, development, testing &delivery, and maintenance.
  Information gathering is the first step and usually the most important one. Before making a website, it is important to gather all the information you need in order to build it. what the goals of the website are and how these goals can be achieved are important things to think about. Certain things that need to also be considered are what the purpose of the website is, what the goal of the website is, whether or not there is a  a specific group of people you’re targeting your website for, and what kind of information that target audience will be looking at in your website.
@@ -18,4 +18,4 @@
 #What is user experience design and why is it valuable?
  User experience is how a person feels when interfacing with a system. User centered design is important for many reasons.It is important because it deals with user’s needs and because it is our job to try to make it accessible to everyone in the world. People gain from free trade, and the internet is free trade, free trade of knowledge. If everyone in the world was connected, we could expose ignorance and expose important issues in our planet.
 #Which parts of the challenge did you find tedious?
- Making the site map was the most tedious thing for me. I could not figure out how to make it on the website I ended up using. There were some parts of this challenge that were ambiguous because we didn’t have proper directions.
+ Making the site map was the most tedious thing for me. I could not figure out how to make it on the website I ended up using. There were some parts of this challenge that were ambiguous because we didn’t have proper directions. I also had a very hard time finding the right path for the image. It was frustrating.
