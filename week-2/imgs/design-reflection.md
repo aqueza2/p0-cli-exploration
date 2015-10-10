@@ -18,4 +18,4 @@
 #What is user experience design and why is it valuable?
  User experience is how a person feels when interfacing with a system. User centered design is important for many reasons.It is important because it deals with user’s needs and because it is our job to try to make it accessible to everyone in the world. People gain from free trade, and the internet is free trade, free trade of knowledge. If everyone in the world was connected, we could expose ignorance and expose important issues in our planet.
 #Which parts of the challenge did you find tedious?
- Making the site map was the most tedious thing for me. I could not figure out how to make it on the website I ended up using. There were some parts of this challenge that were ambiguous because we didn’t have proper directions.
+ Making the site map was the most tedious thing for me. I could not figure out how to make it on the website I ended up using. There were some parts of this challenge that were ambiguous because we didn’t have proper directions. I also had a very hard time finding the right path for the image. It was frustrating.
