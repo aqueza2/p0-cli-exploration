@@ -1,9 +1,11 @@
 #2.4 Wireframing
+##Index frame
 ![Alt text](imgs/wireframe-index.png)
+##Blog frame
 ![Alt text](imgs/wireframe-blog-index.png)
 
 ###What is a wireframe?
-A wireframe is
+A wireframe is a general sketch of how information will be displayed in the website you are creating. To be exact, it is an image or set of images which displays the functional elements of a website or page, typically used for planning a site's structure and functionality.
 ###What are the benefits of wireframing?
 Wireframing helps you create the general layout of the site or app you are planning on creating. It is similar to a quick sketch of a house you want to build. A wireframe is also very useful in determining how the user interacts with the interface, therefore it is a essential to the design process. It is also good to use it if you're trying to find the optimal layout of your screen because it provides a quick visual representation.
 ###Did you enjoy wireframing your site?
