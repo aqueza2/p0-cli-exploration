@@ -22,6 +22,6 @@ puts 60 * 24 * 365 * 10
 * What are strings? Why and when would you use them?
 - Strings are groups of letters in a program. You would use strings if you want your program to print some words or letters.
 * What are local variables? Why and when would you use them?
-- A local variable is
+- Local variables are local to the code construct in which they are declared. For example, a local variable declared in a method or within a loop cannot be accessed outside of that loop or method. Local variable names must begin with either an underscore or a lower case letter. You would use variables to store strings in your computer's memory for later use in your program. This would save you time and would allow you to be more efficient in writing your code.
 * How was this challenge? Did you get a good review of some of the basics?
-- This challenge was very difficult at first because I had no idea of what I was supposed to do to the code you provided.
+- This challenge was very difficult at first because I had no idea of what I was supposed to do to the code you provided. Then I realized I was supposed to write my answers where it said "Solution Below". Other than that, I didn't think it was extremely challenging. It was all just new to me.
