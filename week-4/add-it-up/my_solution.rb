@@ -23,16 +23,14 @@
 # 1. total initial solution
 
 # 3. total refactored solution
-def total
-sum = 0
-numbers = [2,4,6]
-numbers.each  do |i|
-  sum += i
-  puts sum
+def total (array)
+  total = 0
+  array.each  do |i|
+  total += i
 end
+return total
 end
 
-total
 
 # 4. sentence_maker pseudocode
 # make sure all pseudocode is commented out!
@@ -46,16 +44,9 @@ total
 # MAKE MODIFICATIONS TO REST OF SENTENCE USING STRING METHODS
 
 
-def sentence_maker
-sentence_maker = (["i", "want", "to", "go", "to", "the", "movies"])
-# => "I want to go to the movies."
-  #sentence_maker[1].capitalize
-  puts ((sentence_maker.join (' ')) + '.').capitalize
-
+def sentence_maker(array)
+  puts (array.join (' ')).capitalize.
 end
-
-sentence_maker
-
 
 # 5. sentence_maker initial solution
 
