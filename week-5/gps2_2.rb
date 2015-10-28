@@ -137,4 +137,11 @@ remove_item('Lemonade')
 update_list('Ice Cream',1, "Ice Cream")
 print_list
 
-
+## REFLECTION
+# What did you learn about pseudocode from working on this challenge?
+#Pseudocode can be very beneficial if you know how to do it so it is detailed and organized. My partner and didn't do it so detailed, but we knew what each part was asking.
+# What are the tradeoffs of using Arrays and Hashes for this challenge?
+# What does a method return?
+# What kind of things can you pass into methods as arguments?
+# How can you pass information between methods?
+# What concepts were solidified in this challenge, and what concepts are still confusing?
