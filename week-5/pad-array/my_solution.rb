@@ -64,11 +64,10 @@ def pad(array, min_size, value = nil) #non-destructive
       return new_array
 end
 
-p pad!([1,2,3],7, "dog")
-p pad!([4,5,6],3)
 
 # 4. Reflection
 # Were you successful in breaking the problem down into small steps?
+# We were able to create
 # Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
 # Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
 # When you refactored, did you find any existing methods in Ruby to clean up your code?
