@@ -66,10 +66,17 @@ end
 
 
 # 4. Reflection
+=begin
 # Were you successful in breaking the problem down into small steps?
-# We were able to create
+# We were able to create pseudocode that gave us a general idea of what we were supposed to do. Sometimes writing pseudocode with a partner is easy and sometimes it is difficult, but I think we did a decent job overall. We tried to break it down as much as we could.
 # Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+#It wasn't that easy, but we did reference the pseudocode when we were writing our code. We had to look up methods and other things, but we tried to stay with it as much as we could.
 # Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+# We tried a many different things that didn't work, but eventually we got a working solution. We had to look up some things, more than what we should have, but there was no other way we could have figured it out.
 # When you refactored, did you find any existing methods in Ruby to clean up your code?
+# I don't think we did  very good job refactoring. I don't think there was much we could refactor to be honest. Our code is readable and I don't think there is much redundancy in it.
 # How readable is your solution? Did you and your pair choose descriptive variable names?
+# Our code is readable I think. We wanted to keep it as simple as it could be, and we didn't get to crazy with the naming of our variables.
 # What is the difference between destructive and non-destructive methods in your own words?
+#Destructive methods make permanent changes, whereas non-destructive methods only make a one time temporary change.
+=end
