@@ -6,7 +6,7 @@ steps:
 1. define method
 2. put the list in an array
 3.split the list into groups of 5, or 4, or at least 3
-4.
+4.return new arrays with each group containing at least 3 names.
 
 =end
 
