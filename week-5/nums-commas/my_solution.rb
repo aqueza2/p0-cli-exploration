@@ -16,22 +16,20 @@ What are the steps needed to solve the problem?
 1. define method, give it integer as input.
 2.Turn integer into a string
 3.Break down the integer given (split)
-4. Insert a comma after every 3 index spaces
+4. Insert a comma after every 3 index places
 5. return string in new array with commas
 
 =end
 # 1. Initial Solution
 def separate_comma(integer)
-  array = [integer].to_s
-  return array.chars
+  array = ((integer.to_s.reverse.split("").each_slice (3)).map{|i| i.join}.join(",")).reverse
 end
-
-puts separate_comma(1000000)
+p separate_comma (11111000000)
 
 
 # 2. Refactored Solution
-
-
-
+def separate_comma(integer)
+  array = ((integer.to_s.reverse.split("").each_slice (3)).map(&:join).join(",")).reverse
+end
 
 # 3. Reflection
