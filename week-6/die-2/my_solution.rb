@@ -22,14 +22,16 @@
 
 class Die
   def initialize(labels)
-    @array = [labels].split
-    raise ArgumentError if @array.empty == true
+    @array = labels
+    raise ArgumentError if @array.length == 0
   end
 
   def sides
+    return @array.length
   end
 
   def roll
+    @array.sample
   end
 end
 
