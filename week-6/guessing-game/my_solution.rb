@@ -38,6 +38,7 @@
 # Refactored Solution
 
 class GuessingGame
+  attr_reader :answer
   def initialize(answer)
     @answer = answer
   end
@@ -58,7 +59,8 @@ class GuessingGame
   end
 end
 
-
+game = GuessingGame.new (20)
+game.answer
 
 
 # Reflection
