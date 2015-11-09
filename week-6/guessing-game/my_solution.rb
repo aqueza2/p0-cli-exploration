@@ -72,11 +72,13 @@ end
 # Reflection
 =begin
 How do instance variables and methods represent the characteristics and behaviors (actions) of a real-world object?
-
+Instance variables and instance methods help store information and they allow you to access that information in many different situations.Instance methods allow us to create multiple behaviors for a given set of data.
 When should you use instance variables? What do they do for you?
-Instance variables help store data in a place where you can access it later on
+Instance variables help store data in a place where you can access it later on. They are useful when you have to access that information in other methods within a given class.
 
 Explain how to use flow control. Did you have any trouble using it in this challenge? If so, what did you struggle with?
-
+An overview of flow control: "Conditionals and loops alter the flow of a Ruby program. Conditionals are keywords that execute a certain statement under a specific condition. Loops are blocks of program that are executed multiple times. When the program is run, the statements are executed from the top of the source file to the bottom. One by one." I did not struggle witht he flow control in this challenge. The reason why I did not struggle was because the directions were clear.
 Why do you think this code requires you to return symbols? What are the benefits of using symbols?
+Symbols are very much like integers, they stand for nothing other than themselves.
+
 =end
