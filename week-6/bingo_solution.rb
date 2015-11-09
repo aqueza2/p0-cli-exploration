@@ -29,10 +29,9 @@ class BingoBoard
   def initialize(board)
     @bingo_board = board
   end
-  def random_letter(bingo)
-      bingo = ["B","I","N","G","O"]
-      @letter = bingo.sample
-      p @letter
+  def randomize
+   p @first_round = @bingo_board.map! {|b|b.take 1}.flatten
+
   end
 
 end
@@ -49,7 +48,6 @@ board = [[47, 44, 71, 8, 88],
         [75, 70, 54, 80, 83]]
 
 new_game = BingoBoard.new(board)
-
+new_game.randomize
 
 #Reflection
-
