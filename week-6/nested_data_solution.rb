@@ -91,3 +91,13 @@ startup_names.each do |inner_element|
 end
 
 p startup_names
+
+#REFLECTION
+=begin
+What are some general rules you can apply to nested arrays?
+I don't know what general rules you could be talking about, but I do know that nested arrays are special in that they have different layers of accessing data, so you have to add layers to your code in order to manipulate the inner layers.
+What are some ways you can iterate over nested arrays?
+If you want to iterate over the layers, you have to use an iterator inside an iterator, all depending on how many layers there are.
+Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
+The method that was given to us in the assignment ".kind_of?" was handy in this challenge. The first couple of exercise were easy, but that last one wasn't as easy. At first we tried doing our own research and trying to find new methods we could use, but eventually we just decided to use what was given to us in the exercise and it worked just fine.
+=end
