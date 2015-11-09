@@ -96,4 +96,13 @@ end
 # p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
-
+=begin
+What did you learn about making code readable by working on this challenge?
+Making code readable can be a very difficult thing when you're not experienced. We spent a lot of time trying to figure out how to refactor the very last section of the assignment.
+Did you learn any new methods? What did you learn about them?
+I didn't learn any new methods. It was the first time I had used "unless" in my code, simply just because I have always preferred using if statements that are true.
+What did you learn about accessing data in hashes?
+I learned that accessing data in a hash is not that difficult. Making the index whatever you want it to be is a very handy feature of hashes.
+What concepts were solidified when working through this challenge?
+Accessing data in hashes became more solidified.
+=end
