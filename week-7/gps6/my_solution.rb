@@ -20,8 +20,9 @@ class VirusPredictor
     predicted_deaths
     speed_of_spread
   end
-
+#private stops us from being able to call the methods after it (predicted deaths and speed of the spread) from outside the class.
   private
+#predicted deaths takes different thresholds of population density and it calculates the number of deaths depending on that population density. If a state meets a certain condition, then it will that that information and it will calculate the number of predicted deaths, with the given algorithm.
 
   def predicted_deaths
     # predicted deaths is solely based on population density
@@ -41,6 +42,7 @@ class VirusPredictor
 
   end
 
+#based on the population
   def speed_of_spread #in months
     # We are still perfecting our formula here. The speed is also affected
     # by additional factors we haven't added into this functionality.
