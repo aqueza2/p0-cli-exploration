@@ -1,29 +1,29 @@
 # Virus Predictor
 
-# I worked on this challenge [by myself, with: ].
-# We spent [#] hours on this challenge.
+# I worked on this challenge [by myself].
+# We spent [1.25] hours on this challenge.
 
 # EXPLANATION OF require_relative
-#
-#
+#require relative allows us to access the information in the referenced file.
+#instead of having to input each value, we can just have a list of all the values and thus we can access them by linking both of them together using require_relative.
 require_relative 'state_data'
 
 class VirusPredictor
-
+#Initialize allows you to start your class and it defines which variables will be available to use later on in your methods.
   def initialize(state_of_origin, population_density, population)
     @state = state_of_origin
     @population = population
     @population_density = population_density
   end
-
+#virus_effects calls the predicted_deaths method as well as the speed_of_deaths method.
   def virus_effects
-    predicted_deaths(@population_density, @population, @state)
-    speed_of_spread(@population_density, @state)
+    predicted_deaths
+    speed_of_spread
   end
 
   private
 
-  def predicted_deaths(population_density, population, state)
+  def predicted_deaths
     # predicted deaths is solely based on population density
     if @population_density >= 200
       number_of_deaths = (@population * 0.4).floor
@@ -41,21 +41,20 @@ class VirusPredictor
 
   end
 
-  def speed_of_spread(population_density, state) #in months
+  def speed_of_spread #in months
     # We are still perfecting our formula here. The speed is also affected
     # by additional factors we haven't added into this functionality.
-    speed = 0.0
 
     if @population_density >= 200
-      speed += 0.5
+      speed = 0.5
     elsif @population_density >= 150
-      speed += 1
+      speed = 1
     elsif @population_density >= 100
-      speed += 1.5
+      speed = 1.5
     elsif @population_density >= 50
-      speed += 2
+      speed = 2
     else
-      speed += 2.5
+      speed = 2.5
     end
 
     puts " and will spread across the state in #{speed} months.\n\n"
@@ -83,8 +82,20 @@ end
 # alaska.virus_effects
 
 STATE_DATA.each_key do |state|
-virus = VirusPredictor.new(state, STATE_DATA[state][:population_density],STATE_DATA[state][:population])
-virus.virus_effects
+  virus = VirusPredictor.new(state,STATE_DATA[state][:population_density],STATE_DATA[state][:population])
+  virus.virus_effects
 end
+
 #=======================================================================
 # Reflection Section
+=begin
+What are the differences between the two different hash syntaxes shown in the state_data file?
+In the state_data file, the hash shown is a nested hash.
+What does require_relative do? How is it different from require?
+  require_relative links the state_data.rb file to the my_solution file.require_relative is used when you have a file from the same directory.
+What are some ways to iterate through a hash?
+When refactoring virus_effects, what stood out to you about the variables, if anything?
+the variables were already defined in the intialize method, and they were used inside each of the
+What concept did you most solidify in this challenge?
+The concept of iterating through a hash. All this time I've felt more comfortable with arrays, but this is the first time I ever iterated through a hash on my own and I fully understood what it was doing.
+=end
