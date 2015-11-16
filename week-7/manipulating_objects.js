@@ -25,32 +25,30 @@ terah.weight = 125
 delete terah.eyeColor
 adam.spouse = terah
 
-var carson = {
+terah.children = new Object
+terah.children.carson = {
   name: "Carson"
 }
-var carter = {
+terah.children.carter = {
   name: "Carter"
 }
-var colton = {
+terah.children.colton = {
   name: "Colton"
 }
+adam.children = terah.children
 
-
-terah.children = {
-  carson: "Carson"
-  carter: "Carter"
-  colton: "Colton"
-}
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-//
-//
-//
-//
-//
-//
+/*
+What tests did you have trouble passing? What did you do to make it pass? Why did that work?
+I had trouble passing test # 8 because I couldn't figure out how to make  the terah children property a new object, or maybe I should say that I didn't know what exactly that meant. After reading that and looking in the book I figured it out that I had to do the terah.children = new Object. I thought at first I had to manipulate somehting that had to do with carson.
+How difficult was it to add and delete properties outside of the object itself?
+It was not very difficult at all. I really liked this exercise because it really made me understand properties more.
+What did you learn about manipulating objects in this challenge?
+I learned that you can manipulate objects from outside of their original definition. I think it will definitely come in handy when later on when I have to create an instance of an object just for one specific section of my code.
 
+*/
 
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
