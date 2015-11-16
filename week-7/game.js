@@ -14,9 +14,6 @@
 //
 
 
-// Initial Code
-
-
 
 var boyWizard = {
   health: 100,
@@ -24,8 +21,14 @@ var boyWizard = {
   magic: 100,
   position: 0,
   move: function() {
-  for (i=0)  }
+  for (var i = 0; i < 100; i += 10) {
+   console.log(i);
+    }
+  }
 }
+
+console.log(boyWizard.move())
+
 
 var phoenix = {
   health: 100,
@@ -38,38 +41,17 @@ var giantSnake = {
   position: (Math.floor(Math.random() * 100) + 0  )
 }
 
-console.log(Math.floor(Math.random() * 100) + 0  )
+// console.log(Math.floor(Math.random() * 100) + 0  )
 
-function {
+// function {
 
-}
+// }
 
-function {
+// function {
 
-}
+// }
 
-function {
+// function {
 
-}
+// }
 
-
-
-
-
-
-// Refactored Code
-
-
-
-
-
-
-// Reflection
-//
-//
-//
-//
-//
-//
-//
-//
