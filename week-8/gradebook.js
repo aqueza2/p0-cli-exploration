@@ -1,10 +1,15 @@
 /*
 Gradebook from Names and Scores
-I worked on this challenge [by myself, with:]
-This challenge took me [#] hours.
+
+I worked on this challenge [by myself, with:  Parminder Singh & Walter Kerr]
+
+This challenge took me [1] hours.
+
 You will work with the following two variables.  The first, students, holds the names of four students.
+
 The second, scores, holds groups of test scores.  The relative positions of elements within the two
 variables match (i.e., 'Joseph' is the first element in students; his scores are the first value in scores.).
+
 Do not alter the students and scores code.
 */
 
@@ -23,6 +28,34 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
+var gradebook = {
+  Joseph: { testScores: scores[0]},
+  Susan: {testScores: scores[1]},
+  William: {testScores: scores[2]},
+  Elizabeth: {testScores: scores[3]},
+
+  addScore: function(name,score) {
+      gradebook[name].testScores.push(score);
+  },
+
+   getAverage: function(name) {
+       var studentArray = gradebook[name].testScores
+     return average(studentArray)
+      },
+};
+
+
+
+var average = function(array) {
+  var total = 0;
+  for(var i = 0; i < array.length; i++) {
+    total += array[i];
+  }
+  return total / array.length;
+}
+
+
+//console.log(gradebook.Joseph.testScores);
 
 
 
@@ -34,23 +67,48 @@ var scores = [ [80, 70, 70, 100],
 // Refactored Solution
 
 
+var gradebook = {
+  Joseph: { testScores: scores[0]},
+  Susan: {testScores: scores[1]},
+  William: {testScores: scores[2]},
+  Elizabeth: {testScores: scores[3]},
 
+  addScore: function(name,score) {
+      gradebook[name].testScores.push(score);
+  },
 
-
+   getAverage: function(name) {
+       var studentArray = gradebook[name].testScores
+     return average(studentArray)
+      },
+};
+//used .forEach instead of a for loop
+function average(array) {
+  var total = 0
+  array.forEach(function(numbers){
+    total += numbers
+  })
+  return total/array.length
+};
 
 
 
 // __________________________________________
 // Reflect
+/*
+
+What did you learn about adding functions to objects?
+The answers for a big part of this seemed the most "obvious" choice, and so at times we kept thinking it wasnt right, but sometimes the most obvious choice is what works. We didn't struggle that much until we got to the last part of the challenge because we couldn't figure out what was the right way to notate that we wanted each number in the array to add itself to the other numbers.
+How did you iterate over nested arrays in JavaScript?
+We used a for loop to iterate over the nested arrays.
+Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+Yes, .foreach helped us to iterate inside each array and we used it instead of using the for loop. That was the only new method we used.
 
 
 
 
 
-
-
-
-
+*/
 // __________________________________________
 // Test Code:  Do not alter code below this line.
 
