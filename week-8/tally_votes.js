@@ -17,7 +17,7 @@ voteCount would be ...
 student who received the most votes. */
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with Alicia Quezada:
+// I worked on this challenge with Dan Andersen:
 // This challenge took us 2 hours.
 
 // Pseudocode
@@ -29,9 +29,6 @@ ITERATE through the "var votes" list (outermost hash).
 After all votes have been tallied in voteCount,
 
 ITERATE through voteCount and locate the candidate who recieved the most votes for ech office and send them to the property for that office in "var officers".
-
-
-
 
 */
 
@@ -84,7 +81,46 @@ var officers = {
 // __________________________________________
 // Initial Solution
 
-function voteCounter(office) {
+// function voteCounter(office) {
+//   for (var voter in votes) {
+//     var candidate = (votes[voter][office]);
+//     if(voteCount[office].hasOwnProperty(candidate)){
+//       voteCount[office][candidate] += 1;
+//     }
+//     else {
+//       voteCount[office][candidate] = 1;
+//     }
+//   }
+// }
+
+// function winner(name) {
+//   for (var office in voteCount) {
+//    var currentWinner = 0;
+//     for (var candidate in voteCount[office]) {
+//       if (voteCount[office][candidate] > currentWinner){
+//       currentWinner = voteCount[office][candidate];
+//       officers[office] = candidate;
+//       }
+//     };
+//   };
+// }
+
+// voteCounter("president")
+// voteCounter("vicePresident")
+// voteCounter("secretary")
+// voteCounter("treasurer")
+
+// winner()
+
+// console.log(voteCount)
+// console.log(officers)
+
+
+
+// __________________________________________
+// Refactored Solution
+
+function tally(office) {
   for (var voter in votes) {
     var candidate = (votes[voter][office]);
     if(voteCount[office].hasOwnProperty(candidate)){
@@ -92,48 +128,29 @@ function voteCounter(office) {
     }
     else {
       voteCount[office][candidate] = 1;
-    }
-  }
-}
+    };
+  };
+};
 
 function winner(name) {
   for (var office in voteCount) {
-   var currentWinner = 0;
+    var currentWinner = 0;
     for (var candidate in voteCount[office]) {
       if (voteCount[office][candidate] > currentWinner){
-      // if (voteCount.office.candidate.votes > currentWinner){
       currentWinner = voteCount[office][candidate];
-      // officers[office] = currentWinner;
       officers[office] = candidate;
-      }
+      };
     };
   };
-}
+};
 
-
-
-// voteCounter("president")
-// console.log("------------------------")
-// voteCounter("vicePresident")
-// console.log("------------------------")
-// voteCounter("secretary")
-// console.log("------------------------")
-// voteCounter("treasurer")
-// console.log("------------------------")
-voteCounter("president")
-voteCounter("vicePresident")
-voteCounter("secretary")
-voteCounter("treasurer")
-
+tally("president")
+tally("vicePresident")
+tally("secretary")
+tally("treasurer")
 winner()
-
 console.log(voteCount)
 console.log(officers)
-
-
-
-// __________________________________________
-// Refactored Solution
 
 
 
@@ -142,12 +159,18 @@ console.log(officers)
 
 // __________________________________________
 // Reflection
+/*
+
+What did you learn about iterating over nested objects in JavaScript?
+I learned more about "for....in..", and it was a useful tool for iterating over the properties in the objects we were given.
+Were you able to find useful methods to help you with this?
+Yes, the method "hasOwnProperty" pretty much helped us figure out how to work out the first portion of this assignment. We were stuck until we finally figured out that we had to use it.
+What concepts were solidified in the process of working through this challenge?
+The concept of giving objects new properties as well as the concept of iteration became more clear in this challenge.
 
 
 
-
-
-
+*/
 // __________________________________________
 // Test Code:  Do not alter code below this line.
 
