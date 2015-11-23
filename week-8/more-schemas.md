@@ -1,7 +1,7 @@
-![nba_draft](../imgs/nba.png)
+![nba_draft](imgs/nba.png)
 #####This relationship is a one to one relationship because each nba player can only be drafter by one team in a specific round and each team can only draft one player in a specific round at the nba draft. For example, in round 1 of the NBA Draft in 1984, the Chicago Bulls got the 3rd pick, that 3rd pick being Michael Jordan. That was the only player they picked in round 1.
 
-![groceries](../imgs/groceries.png)
+![groceries](imgs/groceries.png)
 
 ####What is a one-to-one database?
 #####One-to-one relationships are used when instances of entities can have a single relationship to one another. It is the relationship between two tables where both the tables should be associated with each other based on only one matching row.
