@@ -1,6 +1,6 @@
 # Drawer Debugger
 
-# I worked on this challenge [by myself, with: Will Granger ].
+# I worked on this challenge [with: Will Granger ].
 # I spent [1] hours on this challenge.
 
 # Original Code
@@ -108,3 +108,11 @@ puts spoon.eat #=> this should be false
 
 
 # Reflection
+=begin
+What concepts did you review in this challenge?
+I reviewed classes and methods.
+What is still confusing to you about Ruby?
+I still struggle a little bit with looping. But overall I feel ok with Ruby.
+What are you going to study to get more prepared for Phase 1?
+I need to try more challenges in order to feel like I have a decent grip on things.
+=end
